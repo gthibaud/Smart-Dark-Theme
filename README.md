@@ -11,8 +11,8 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 ### HTML
 
-![HTML Screenshot](https://github.com/Smart-Dark-Theme/master/html.png)
+![HTML Screenshot](https://github.com/gthibaud/Smart-Dark-Theme/blob/master/html.png)
 
 ### CSS
 
-![CSS Screenshot](https://github.com/Smart-Dark-Theme/master/css.png)
+![CSS Screenshot](https://github.com/gthibaud/Smart-Dark-Theme/blob/master/css.png)
