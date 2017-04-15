@@ -1,7 +1,7 @@
 # Smart-Dark-Theme
 * A smart, sophisticated and colored theme for Brackets (dark version).
 
-#How to install
+# How to install
 Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 # License
@@ -11,8 +11,8 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 ### HTML
 
-![HTML Screenshot](https://github.com/Brackets-Themes/Smart-Dark-Theme/master/html.png)
+![HTML Screenshot](https://github.com/Smart-Dark-Theme/master/html.png)
 
 ### CSS
 
-![CSS Screenshot](https://github.com/Brackets-Themes/Smart-Dark-Theme/master/css.png)
+![CSS Screenshot](https://github.com/Smart-Dark-Theme/master/css.png)
