@@ -1,0 +1,175 @@
+/*
+ * Author:	Grégoire Thibaud
+ * Theme:	Smart Theme Dark
+ * License:	MIT
+ *
+ * Theme Based on Brackets Dark.
+ *
+ */
+
+/* Variables */
+
+@background   : #292C33;
+@foreground   : #ACB2BE;
+@red          : #CD7075;
+@back_moi     : #3F4450;
+@grey         : #767676;
+@plain-text   : #b8bec9;
+@yellow       : #E0C084;
+@string       : #97bf6e;
+@blue         : #6FACE6;
+@purple       : #BB7FD7;
+@green        : #97bf6e;
+
+/* Code Styling */
+
+.CodeMirror .cm-keyword    { color: @purple; }
+.CodeMirror .cm-atom       { color: @string; }
+.CodeMirror .cm-number     { color: @yellow; }
+.CodeMirror .cm-def        { color: @plain-text; }
+.CodeMirror .cm-variable   { color: @plain-text; }
+.CodeMirror .cm-variable-2 { color: @blue; }
+.CodeMirror .cm-variable-3 { color: @yellow; }
+.CodeMirror .cm-property   { color: @plain-text; }
+.CodeMirror .cm-operator   { color: @plain-text; }
+.CodeMirror .cm-comment    { color: @grey; }
+.CodeMirror .cm-string     { color: @string; }
+.CodeMirror .cm-string-2   { color: @string; }
+.CodeMirror .cm-meta       { color: @plain-text; }
+.CodeMirror .cm-error      { color: @purple; }
+.CodeMirror .cm-qualifier  { color: @red; }
+.CodeMirror .cm-builtin    { color: @blue; }
+.CodeMirror .cm-bracket    { color: @plain-text; }
+.CodeMirror .cm-tag        { color: @red; }
+.CodeMirror .cm-attribute  { color: @yellow; }
+.CodeMirror .cm-header     { color: @purple; }
+.CodeMirror .cm-quote      { color: @blue; }
+.CodeMirror .cm-hr         { color: @yellow; }
+.CodeMirror .cm-link       { color: @grey; }
+.CodeMirror .cm-rangeinfo  { color: @purple; }
+.CodeMirror .cm-minus      { color: @grey; }
+.CodeMirror .cm-plus       { color: @green; }
+
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @plain-text;
+    line-height: 25px;
+}
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: @back_moi;
+}
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #000;
+}
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: rgba(0, 0, 0, 0.2);
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: @grey;
+    }
+}
+
+/* Extra CSS */
+
+.CodeMirror-searching {
+    background-color: #e3e3e3;
+    &.searching-current-match {
+        background-color: #f6445f;
+    }
+}
+
+.CodeMirror-cursor {
+    border-left: 1px solid #c5c9c6 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+
+.CodeMirror-linenumber {
+    color: @grey;
+    font-size: 80%;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: #333f48;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: rgba(255, 255, 255, 0.23);
+}
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    background-color: #304960;
+    color: @foreground !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid @plain-text;
+    width: 1.2ex;
+}
+
+.CodeMirror {
+    .CodeMirror {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-gutters {
+        background: transparent;
+        border-right: none;
+    }
+
+    .CodeMirror .CodeMirror-activeline-background {
+        background: transparent;
+    }
+
+    .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+        background: transparent;
+        color: #767676;
+    }
+
+    .CodeMirror-focused .CodeMirror-activeline-background {
+        background: #2f2f2f;
+    }
+
+    .CodeMirror-focused .CodeMirror-activeline {
+        .CodeMirror-gutter-elt {
+            background: rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+    }
+}
+
+.CodeMirror-foldgutter-open:after {
+    color: #666;
+}
+.CodeMirror-foldgutter-folded:after {
+    color: #aaa;
+}
+
+.CodeMirror.over-gutter, .CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        color: #888;
+    }
+}
+
+.CodeMirror-foldmarker {
+    border-color: #000;
+    color: #ccc;
+    background-color: #444;
+}
+
+/* Non-editor styling */
+
+.image-view, 
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @foreground;
+}
+

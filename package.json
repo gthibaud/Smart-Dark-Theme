@@ -1,0 +1,15 @@
+{
+    "name": "gregoirethibaud.smart-theme-dark",
+    "title": "Smart Theme Dark",
+    "description": "A smart, sophisticated and colored theme (dark version)",
+    "homepage": "https://github.com/yourname/my-shiny-theme",
+    "version": "1.0.0",
+    "author": "Grégoire Thibaud <contact@gregoirethibaud.fr> (http://gregoirethibaud.fr)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme","smart","colored","color","material","bold","minimal"]
+}
