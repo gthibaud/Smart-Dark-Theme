@@ -15,4 +15,4 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 
 ### CSS
 
-![CSS Screenshot](https://github.com/gthibaud/Smart-Dark-Theme/blob/master/css.png)
+![CSS Screenshot](https://github.com/gthibaud/Smart-Dark-Theme/blob/master/css2.png)
